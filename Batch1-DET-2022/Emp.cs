@@ -14,6 +14,12 @@ namespace Batch1_DET_2022
         string dept;
         double sal;
         DateOnly doj;
+        internal int Empno;
+        internal string Ename;
+
+        public int Sal { get; internal set; }
+        public int Deptno { get; internal set; }
+        public string Job { get; internal set; }
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
